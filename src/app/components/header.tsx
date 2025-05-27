@@ -25,7 +25,7 @@ export const TopHeader = () => {
 
                 {/* 右上：SNSリンク */}
                 <div className="col-start-2 row-start-1 flex mt-[4px] justify-end items-center py-1">
-                    <ul className="flex items-center space-x-10 bg-[#FFFCE9] rounded-l-full px-4 py-1 text-xs text-black">
+                    <ul className="w-[600px] flex items-center space-x-4 bg-[#FFFCE9] rounded-l-full px-4 py-1 text-xs text-black">
                         <li className="flex items-center gap-1">
                             <FaSquareXTwitter size={15} />
                             <a href="#">X (Twitter)</a>
