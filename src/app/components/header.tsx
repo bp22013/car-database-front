@@ -2,7 +2,7 @@
 
 import { FaYoutube, FaLine, FaSquareXTwitter } from 'react-icons/fa6';
 import { InstagramGradientIcon } from './Icons/Instagram';
-import React, { useState } from 'react';
+import React from 'react';
 import { HambergerIcon } from './Icons/Hamberger';
 
 export const TopHeader = () => {
