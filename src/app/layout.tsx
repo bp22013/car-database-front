@@ -6,7 +6,6 @@ import { ToasterContext } from './context/ToastContext';
 import './styles/globals.css';
 import { TopHeader } from './components/header';
 import { Footer } from './components/footer';
-import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
 
 const inter: NextFont = Inter({ subsets: ['latin'] });
 
@@ -20,14 +19,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <html lang="en">
             <Suspense>
                 <body className={inter.className}>
-                    <AppRouterCacheProvider>
-                        <ToasterContext />
-                        <div>
-                            <TopHeader />
-                            {children}
-                            <Footer />
-                        </div>
-                    </AppRouterCacheProvider>
+                    <ToasterContext />
+                    <div>
+                        <TopHeader />
+                        {children}
+                        <Footer />
+                    </div>
                 </body>
             </Suspense>
         </html>
