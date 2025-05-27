@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 import { HambergerIcon } from './Icons/Hamberger';
 
 export const TopHeader = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    //const [isOpen, setIsOpen] = useState(false);
 
     return (
         <header className="w-full font-sans text-sm bg-black">
