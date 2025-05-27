@@ -56,9 +56,9 @@ export const TopHeader = () => {
 
                 {/* 右下：ナビゲーション + ハンバーガー */}
                 <div className="col-start-2 row-start-2 flex justify-end items-center py-1">
-                    <ul className="hidden md:flex items-center space-x-6 bg-[#FFFCE9] w-[768px] rounded-full px-6 py-1 text-black">
+                    <ul className="hidden md:flex items-center space-x-6 bg-[#FFFCE9] w-[850px] rounded-full px-6 py-1 text-black">
                         <li>
-                            <a href="#" className="pb-1 border-b-2 border-pink-500">
+                            <a href="#" className="pb-1 border-b-2 border-[#E8005A]">
                                 トップ
                             </a>
                         </li>
