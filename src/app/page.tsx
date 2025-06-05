@@ -3,16 +3,12 @@
 
 import Head from 'next/head';
 import Image from 'next/image';
-import Link from 'next/link';
 import { Noto_Serif } from 'next/font/google';
-import { useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
 
 const notoSerif = Noto_Serif({ subsets: ['latin'], weight: ['700'] });
 
 export default function Home() {
-    const router = useRouter();
-
     return (
         <div className="min-h-screen flex flex-col font-sans">
             <Head>
